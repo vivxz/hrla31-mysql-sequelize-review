@@ -4,7 +4,8 @@
   "description": "Matthew's awesome mysql-sequelize review",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server"
+    "start": "nodemon server",
+    "seed": "node database/seed.js"
   },
   "repository": {
     "type": "git",
